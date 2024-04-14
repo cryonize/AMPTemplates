@@ -210,4 +210,21 @@
         "Special":"listfile:./conan-exiles/443030/ConanSandbox/Mods/modlist.txt",
         "EnumValues":{}
     }
+    {
+        "DisplayName":"Nudity",
+        "Category":"Server Settings",
+        "Description":"Game nudity. 0 = None ; 1 = Partial ; 2 = Full",
+        "Keywords":"nudity",
+        "FieldName":"MaxNudity",
+        "InputType":"enum",
+        "IsFlagArgument":false,
+        "ParamFieldName":"ServerSettings.MaxNudity",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"0",
+        "EnumValues":{
+            "0":"No Nudity",
+            "1":"Partial Nudity",
+            "2":"Full Nudity",
+        }
+    },
  ]
